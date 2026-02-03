@@ -16,7 +16,7 @@
             if (count == 1)
                 CounterBtn.Text = $"Clicked {count} time";
             else
-                CounterBtn.Text = $"Jerry Clicked {count} times";
+                CounterBtn.Text = $"Jerry Arthur Clicked {count} times";
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
